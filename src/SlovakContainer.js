@@ -21,6 +21,34 @@ padding-bottom:2em;
   }
 }
 
+@media (max-width: 768px) {
+  .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: stretch;
+
+    .test {
+      flex:1;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .row{
+    max-width:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: stretch;
+
+    .test {
+      flex:1;
+    }
+  }
+}
+
+
 `;
 
 class SlovakContainer extends Component {

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import ArticleColumnComponent from './ArticleColumnComponent.js';
-import pic from '../img/info.jpg';
 
 class ArticleContainer extends Component {
   constructor(){
